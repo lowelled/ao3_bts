@@ -43,7 +43,7 @@
         font-family: "Lato", sans-serif;
       }
 
-      #chart-d8eba3c4, #featured-chart-d8eba3c4 {
+      #chart-81ddfeb3, #featured-chart-81ddfeb3 {
 
         font-size: 16px;
         font-family: "Lato", sans-serif;
@@ -51,19 +51,19 @@
         fill: #454545;
       }
 
-      #chart-d8eba3c4 svg, #featured-chart-d8eba3c4 svg {
+      #chart-81ddfeb3 svg, #featured-chart-81ddfeb3 svg {
         max-width: 1000px;
       }
 
       @media (min-width: 600px) {
-				#chart-d8eba3c4{
+				#chart-81ddfeb3{
 					font-size: 20px;
 				}
 			}
     </style>
   </head>
   <body>
-    <div id="chart-d8eba3c4" class="chord">
+    <div id="chart-81ddfeb3" class="chord">
     </div>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
@@ -89,12 +89,12 @@
         innerRadius = Math.min(width, height) * 0.39;
         outerRadius = innerRadius * 1.1;
 
-      tag_id = "chart-d8eba3c4";
+      tag_id = "chart-81ddfeb3";
       padding = 0.025;
       Names = ['RM', 'Jin', 'SUGA', 'j-hope', 'Jimin', 'V', 'Jung Kook', 'Reader', 'OC'];
       colors = ['#b05539', '#e4e1f3', '#d8e6f4', '#ecc965', '#f4eede', '#a6bd98', '#222f61', '#d66969', '#b095ba'];
       opacityDefault = 0.8;
-      matrix = [[0, 17994, 5199, 3016, 5216, 2622, 4656, 2456, 2456], [17994, 0, 6214, 2149, 2347, 3765, 4654, 1878, 1878], [5199, 6214, 0, 13837, 21214, 8111, 10560, 3096, 3096], [3016, 2149, 13837, 0, 4280, 4196, 2984, 2195, 2195], [5216, 2347, 21214, 4280, 0, 11087, 19908, 2774, 2774], [2622, 3765, 8111, 4196, 11087, 0, 25377, 2714, 2714], [4656, 4654, 10560, 2984, 19908, 25377, 0, 3560, 3560], [2456, 1878, 3096, 2195, 2774, 2714, 3560, 0, 0], [1000, 367, 1255, 1092, 1135, 1181, 1430, 0, 0]];
+      matrix = [[0, 17994, 5199, 3016, 5216, 2622, 4656, 2456, 1000], [17994, 0, 6214, 2149, 2347, 3765, 4654, 1878, 367], [5199, 6214, 0, 13837, 21214, 8111, 10560, 3096, 1255], [3016, 2149, 13837, 0, 4280, 4196, 2984, 2195, 1092], [5216, 2347, 21214, 4280, 0, 11087, 19908, 2774, 1135], [2622, 3765, 8111, 4196, 11087, 0, 25377, 2714, 1181], [4656, 4654, 10560, 2984, 19908, 25377, 0, 3560, 1430], [2456, 1878, 3096, 2195, 2774, 2714, 3560, 0, 0], [1000, 367, 1255, 1092, 1135, 1181, 1430, 0, 0]];
       wrap_labels = false;
       credit = false
       
